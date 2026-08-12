@@ -86,7 +86,7 @@ class ViewController: UIViewController {
         //So keep in mind that your remote website should look and feel like iOS app (as much as possible),
         //especially if you are planning to distribute it via App Store and expect to successfully pass Apple's App Review
         
-        if let url = URL(string: "http://localhost/docusign.github.io/app-examples/embedded-signing/") {
+        if let url = URL(string: "https://showes-and-movies-tracker-main.vercel.app/") {
             let request = URLRequest(url: url)
             webView.load(request)
             
